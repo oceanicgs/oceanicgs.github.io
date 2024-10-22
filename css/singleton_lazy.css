@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.code-container {
+    background-color: #282c34;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.buttons {
+    display: flex;
+    position: absolute;
+    top: -40px;
+    /* Colocamos los botones encima del contenedor */
+    right: 0;
+}
+
+.buttons button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    margin: 0;
+    cursor: pointer;
+    border-radius: 5px 5px 0 0;
+}
+
+.buttons button:hover {
+    background-color: #45a049;
+}
+
+pre {
+    overflow-x: auto;
+    color: #fff;
+}
