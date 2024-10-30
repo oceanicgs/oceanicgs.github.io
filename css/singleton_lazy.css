@@ -21,9 +21,9 @@ h1 {
 .buttons {
     display: flex;
     position: absolute;
-    top: -40px;
+    top: 0;
     /* Colocamos los botones encima del contenedor */
-    right: 0;
+    right: 10px;
 }
 
 .buttons button {
@@ -33,7 +33,7 @@ h1 {
     padding: 10px 15px;
     margin: 0;
     cursor: pointer;
-    border-radius: 5px 5px 0 0;
+    border-radius: 5px;
 }
 
 .buttons button:hover {
